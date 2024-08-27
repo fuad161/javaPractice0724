@@ -27,7 +27,7 @@ public class Geeks4GeeksPractice {
 
 	}
 	public static void execute() {
-		println(upperCase2Lower("Fuad"));
+		upperCase2LowerFunctional("fuad");
 	}
 	//-----------------------------------------------------//
 	
@@ -43,4 +43,13 @@ public class Geeks4GeeksPractice {
 		return sb.toString();
     }
 
+	static String upperCase2LowerFunctional(String s) { 
+		
+//		StringBuilder sb = new StringBuilder(s);
+//		sb.chars().forEach(System.out::println);
+		s.chars().forEach(System.out::println);
+		
+		return null;
+	}
+	
 }
